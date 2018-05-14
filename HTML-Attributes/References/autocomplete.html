@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+    <body>
+
+        <form action="/action_page.php" method="get" autocomplete="on">
+            First name:
+            <input type="text" name="fname">
+            <br> E-mail:
+            <input type="email" name="email">
+            <br>
+            <input type="submit">
+        </form>
+
+        <p>Fill in and submit the form, then reload the page, start to fill in the form again - and see how autocomplete works.</p>
+        <p>Then, try to set autocomplete to "off".</p>
+
+        <p>
+            <b>Note:</b> The autocomplete attribute of the form element is not supported in Opera 12 and earlier versions.
+        </p>
+
+        <form action="/action_page.php" autocomplete="on">
+            First name:
+            <input type="text" name="fname">
+            <br> Last name:
+            <input type="text" name="lname">
+            <br> E-mail:
+            <input type="email" name="email" autocomplete="off">
+            <br>
+            <input type="submit">
+        </form>
+
+        <p>Fill in and submit the form, then reload the page to see how autocomplete works.</p>
+        <p>Notice that autocomplete is "on" for the form, but "off" for the e-mail field.</p>
+
+    </body>
+
+</html>

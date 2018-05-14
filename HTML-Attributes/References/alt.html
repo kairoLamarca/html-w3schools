@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+    <body>
+
+        <p>Click on the sun or on one of the planets to watch it closer:</p>
+
+        <img src="https://www.w3schools.com/tags/planets.gif" width="145" height="126" alt="Planets" usemap="#planetmap">
+
+        <map name="planetmap">
+            <area shape="rect" coords="0,0,82,126" alt="Sun" href="https://www.w3schools.com/tags/sun.htm">
+            <area shape="circle" coords="90,58,3" alt="Mercury" href="https://www.w3schools.com/tags/mercur.htm">
+            <area shape="circle" coords="124,58,8" alt="Venus" href="https://www.w3schools.com/tags/venus.htm">
+        </map>
+
+        <img src="https://www.w3schools.com/tags/smiley.gif" alt="Smiley face" width="42" height="42">
+
+        <form action="/action_page.php">
+            First name:
+            <input type="text" name="fname">
+            <br>
+            <input type="image" src="https://www.w3schools.com/tags/submit.gif" alt="Submit" width="48" height="48">
+        </form>
+
+        <p>Click on the image, and the input will be sent to a page on the server called "/action_page.php".</p>
+        <p>
+            <b>Note:</b> The image input type sends the X and Y coordinates of the click that activated the image button as default.</p>
+
+
+    </body>
+
+</html>
