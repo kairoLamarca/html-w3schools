@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <button type="button" disabled>Click Me!</button>
+
+    <form>
+        <fieldset disabled>
+            <legend>Personalia:</legend>
+            Name:
+            <input type="text">
+            <br> Email:
+            <input type="text">
+            <br> Date of birth:
+            <input type="text">
+        </fieldset>
+    </form>
+
+    <p>
+        <b>Note:</b> The disabled attribute of the fieldset element is not supported in IE or Safari 6 and earlier versions.</p>
+
+    <br>
+    <form action="/action_page.php">
+        First name:
+        <input type="text" name="fname">
+        <br> Last name:
+        <input type="text" name="lname" disabled>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <br>
+    <select>
+        <optgroup label="Swedish Cars">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+        </optgroup>
+        <optgroup label="German Cars" disabled>
+            <option value="mercedes">Mercedes</option>
+            <option value="audi">Audi</option>
+        </optgroup>
+    </select>
+
+    <br>
+    <select>
+        <option value="volvo" disabled>Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="vw">VW</option>
+        <option value="audi">Audi</option>
+    </select>
+
+    <br>
+    <select disabled>
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="mercedes">Mercedes</option>
+        <option value="audi">Audi</option>
+    </select>
+
+    <br>
+    <textarea disabled>
+        At w3schools.com you will learn how to make a website. We offer free tutorials in all web development technologies.
+        </textarea>
+
+</body>
+
+</html>
